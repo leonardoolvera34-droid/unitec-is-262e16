@@ -1,0 +1,12 @@
+@page
+@{
+double radio = 5;
+double altura=10;
+double perimetro = Figura262E16.Perimetro(radio);
+double area = Figura262E16.Area(radio);
+double volumen = Figura262E16.Volumen(area,altura);
+}
+El perímetro de un circulo cuyo radio es de @(radio)cm es  @(perimetro.ToString("F2")
+)cm<br />
+El área de un circulo de @(radio)cm es @(area)cm2<br />
+El volumen de un cilindro de altura @(altura)cm y radio @(radio)cm es @(volumen)cm3 
